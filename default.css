@@ -1,7 +1,14 @@
 /*Default Stylesheet*/
 body{
-	background-image: url("images/bg.svg");
 	margin: 0px;
+}
+
+.background{
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	max-height: 768px;
+	width: 100%;
 }
 
 #topMenu{
